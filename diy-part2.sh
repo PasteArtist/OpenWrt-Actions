@@ -13,5 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 
-sed -i 's/ntp.aliyun.com/time.pool.aliyun.com/g' package/base-files/files/bin/config_generate
+sed -i 's/ntp1.aliyun.com/time.pool.aliyun.com/g' package/base-files/files/bin/config_generate
 sed -i 's/time1.cloud.tencent.com/time.asia.apple.com/g' package/base-files/files/bin/config_generate
